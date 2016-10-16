@@ -25,7 +25,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: CCAppDelegate {
-
+    
     override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         
         // Cocos2D takes a dictionary to start ... yeah I know ... but it does, and it is kind of neat
@@ -58,25 +58,23 @@ class AppDelegate: CCAppDelegate {
         // You can use anything you want, and completely dropping extensions will in most cases automatically scale the artwork correct
         // To make it easy to understand what resolutions I am using, I have changed this for this demo to -4x -2x and -1x
         // Notice that I deliberately added some of the artwork without extensions
-	/*
-        CCFileUtils.sharedFileUtils().suffixesDict = [CCFileUtilsSuffixiPad : "-2x",
+        CCFileUtils.shared().suffixesDict = [CCFileUtilsSuffixiPad : "-2x",
             CCFileUtilsSuffixiPadHD : "-4x",
             CCFileUtilsSuffixiPhone : "-1x",
             CCFileUtilsSuffixiPhoneHD : "-1x",
             CCFileUtilsSuffixiPhone5 : "-1x",
             CCFileUtilsSuffixiPhone5HD : "-2x",
             CCFileUtilsSuffixDefault : ""]
-        */
+        
         // Call this instead of line above if you are using SpriteBuilder
-        CCBReader.configureCCFileUtils()
+        //CCBReader.configureCCFileUtils()
 
         // Get the director
         let director = CCDirector.shared()
         
         // Create a scene
-        //let mainScene = MainScene()
-         let mainScene = CCBReader.load(asScene: "MainScene") //MainScene()
-
+        let mainScene = MainScene()
+        
         // Run the director with the initial scene
         director?.run(with: mainScene)
         

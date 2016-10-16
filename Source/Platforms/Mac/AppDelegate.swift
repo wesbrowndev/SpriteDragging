@@ -63,8 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         //CCBReader.configureCCFileUtils()
         
         // Create a scene
-        //let mainScene = MainScene()
-        let mainScene = CCBReader.loadAsScene("MainScene") //MainScene()
+        let mainScene = MainScene()
         
         // Run the director with the initial scene
         director.runWithScene(mainScene)
