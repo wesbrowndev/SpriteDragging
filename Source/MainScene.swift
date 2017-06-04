@@ -2,6 +2,7 @@ import Foundation
 
 class MainScene: CCScene {
     var spriteNode: CCNodeColor!
+    var spriteMovement = false
     
     override init!() {
         super.init()
@@ -10,7 +11,7 @@ class MainScene: CCScene {
         
         let sceneView = CCDirector.shared().viewSize()
         
-        // Background
+        // Background properties
         let background = CCNodeColor(color: CCColor.blue())
         background?.contentSize = CGSize(width: sceneView.width, height: sceneView.height)
         self.addChild(background)
@@ -28,13 +29,28 @@ class MainScene: CCScene {
     #if os(iOS)
     
     override func touchBegan(_ touch: UITouch!, with event: UIEvent!) {
-        let location = touch.location(in: self)
-        spriteNode.position = location
+        let touchLocation = touch.location(in: self)
+        
+        if spriteNode.boundingBox().contains(touchLocation) {
+            spriteMovement = true
+            spriteNode.position = touchLocation
+        }
     }
     
     override func touchMoved(_ touch: UITouch!, with event: UIEvent!) {
-        let location = touch.location(in: self)
-        spriteNode.position = location
+        let touchLocation = touch.location(in: self)
+
+        if spriteNode.boundingBox().contains(touchLocation) && spriteMovement == true {
+            spriteNode.position = touchLocation
+        }
+    }
+    
+    override func touchCancelled(_ touch: UITouch!, with event: UIEvent!) {
+        spriteMovement = false
+    }
+    
+    override func touchEnded(_ touch: UITouch!, with event: UIEvent!) {
+        spriteMovement = false
     }
     
     // MARK: - macOS
@@ -43,12 +59,21 @@ class MainScene: CCScene {
     
     override func mouseDown(_ theEvent: NSEvent!) {
         let location = theEvent.location(in: self)
-        spriteNode.position = location
+        if spriteNode.boundingBox().contains(location) {
+            spriteMovement = true
+            spriteNode.position = location
+        }
     }
     
     override func mouseDragged(_ theEvent: NSEvent!) {
         let location = theEvent.location(in: self)
-        spriteNode.position = location
+        if spriteNode.boundingBox().contains(location) && spriteMovement == true {
+            spriteNode.position = location
+        }
+    }
+    
+    override func mouseUp(_ theEvent: NSEvent) {
+        spriteMovement = false
     }
     
     #endif
