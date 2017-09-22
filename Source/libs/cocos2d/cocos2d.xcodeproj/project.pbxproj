@@ -9,60 +9,6 @@
 /* Begin PBXBuildFile section */
 		0529445D11098D6F00E500F3 /* CCProfiling.h in Headers */ = {isa = PBXBuildFile; fileRef = 0529445911098D6F00E500F3 /* CCProfiling.h */; };
 		0529445E11098D6F00E500F3 /* CCProfiling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0529445A11098D6F00E500F3 /* CCProfiling.m */; };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		080246C11CB12E8300277993 /* CCBuilderReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0802468A1CB12E8300277993 /* CCBuilderReader.h */; };
 		080246C21CB12E8300277993 /* CCBuilderReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0802468A1CB12E8300277993 /* CCBuilderReader.h */; };
 		080246C31CB12E8300277993 /* CCBuilderReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0802468A1CB12E8300277993 /* CCBuilderReader.h */; };
@@ -555,24 +501,6 @@
 /* Begin PBXFileReference section */
 		0529445911098D6F00E500F3 /* CCProfiling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCProfiling.h; sourceTree = "<group>"; };
 		0529445A11098D6F00E500F3 /* CCProfiling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCProfiling.m; sourceTree = "<group>"; };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		0802468A1CB12E8300277993 /* CCBuilderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBuilderReader.h; sourceTree = "<group>"; };
 		08A4EB6B1C7A553E00A08923 /* CCActionProgressTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCActionProgressTimer.h; path = "cocos2d-ui/CCActionProgressTimer.h"; sourceTree = "<group>"; };
 		08A4EB6C1C7A553E00A08923 /* CCActionProgressTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCActionProgressTimer.m; path = "cocos2d-ui/CCActionProgressTimer.m"; sourceTree = "<group>"; };
@@ -802,12 +730,10 @@
 		080246761CB12E4700277993 /* cocos2d-ext */ = {
 			isa = PBXGroup;
 			children = (
-
 			);
 			name = "cocos2d-ext";
 			sourceTree = "<group>";
 		};
-		
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -827,6 +753,7 @@
 				501756090F335CE900624901 /* external */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				BE6E61E41F74ACF60097EC82 /* Recovered References */,
 			);
 			indentWidth = 4;
 			name = CustomTemplate;
@@ -1144,6 +1071,14 @@
 			name = Layouts;
 			sourceTree = "<group>";
 		};
+		BE6E61E41F74ACF60097EC82 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				0802468A1CB12E8300277993 /* CCBuilderReader.h */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D34CAD5E19C3A070009BED7A /* Rendering */ = {
 			isa = PBXGroup;
 			children = (
@@ -1236,12 +1171,9 @@
 				08F4AB001C6E98A1004DAAF7 /* CCActionInstant.h in Headers */,
 				08F4AB011C6E98A1004DAAF7 /* CCActionInterval.h in Headers */,
 				08F4AB021C6E98A1004DAAF7 /* CCLabelTTF.h in Headers */,
-
 				08F4AB031C6E98A1004DAAF7 /* CCNodeColor.h in Headers */,
-
 				08F4AB041C6E98A1004DAAF7 /* CCScene.h in Headers */,
 				08F4AB051C6E98A1004DAAF7 /* CCTextureCache.h in Headers */,
-
 				08F4AB061C6E98A1004DAAF7 /* CCRenderer.h in Headers */,
 				08F4AB071C6E98A1004DAAF7 /* ccTypes.h in Headers */,
 				08F4AB081C6E98A1004DAAF7 /* CCScheduler.h in Headers */,
@@ -1259,7 +1191,6 @@
 				08F4AB171C6E98A1004DAAF7 /* CCRenderDispatch.h in Headers */,
 				08F4AB181C6E98A1004DAAF7 /* CCTextField.h in Headers */,
 				08F4AB191C6E98A1004DAAF7 /* CCRendererBasicTypes_Private.h in Headers */,
-
 				08F4AB1A1C6E98A1004DAAF7 /* CCActionManager.h in Headers */,
 				08F4AB1B1C6E98A1004DAAF7 /* base64.h in Headers */,
 				08F4AB1C1C6E98A1004DAAF7 /* CCMetalSupport_Private.h in Headers */,
@@ -1271,13 +1202,10 @@
 				08F4AB221C6E98A1004DAAF7 /* ccConfig.h in Headers */,
 				08F4AB231C6E98A1004DAAF7 /* CCSpriteFrame.h in Headers */,
 				08F4AB241C6E98A1004DAAF7 /* CCColor.h in Headers */,
-
 				08F4AB251C6E98A1004DAAF7 /* CCProtocols.h in Headers */,
 				08F4AB261C6E98A1004DAAF7 /* CCSpriteFrameCache.h in Headers */,
 				08F4AB271C6E98A1004DAAF7 /* CCTableView.h in Headers */,
 				08F4AB281C6E98A1004DAAF7 /* CCTexture.h in Headers */,
-
-
 				08F4AB291C6E98A1004DAAF7 /* CCProfiling.h in Headers */,
 				08F4AB2B1C6E98A1004DAAF7 /* CCActionTween.h in Headers */,
 				08F4AB2C1C6E98A1004DAAF7 /* uthash.h in Headers */,
@@ -1288,7 +1216,6 @@
 				08F4AB301C6E98A1004DAAF7 /* CCLabelBMFont.h in Headers */,
 				08F4AB311C6E98A1004DAAF7 /* CCDirectorIOS.h in Headers */,
 				08F4AB321C6E98A1004DAAF7 /* CCGLView.h in Headers */,
-
 				08F4AB341C6E98A1004DAAF7 /* CCGL.h in Headers */,
 				08F4AB351C6E98A1004DAAF7 /* CCConfiguration.h in Headers */,
 				08F4AB361C6E98A1004DAAF7 /* CCTexturePVR.h in Headers */,
@@ -1306,7 +1233,6 @@
 				08F4AB431C6E98A1004DAAF7 /* CCLayout.h in Headers */,
 				08F4AB441C6E98A1004DAAF7 /* NSThread+performBlock.h in Headers */,
 				08F4AB451C6E98A1004DAAF7 /* CCMetalView.h in Headers */,
-
 				08F4AB461C6E98A1004DAAF7 /* CCTransition.h in Headers */,
 				08F4AB491C6E98A1004DAAF7 /* CCActionCatmullRom.h in Headers */,
 				08F4AB4A1C6E98A1004DAAF7 /* CCNode+Debug.h in Headers */,
@@ -1320,7 +1246,6 @@
 				08F4AB521C6E98A1004DAAF7 /* CCButton.h in Headers */,
 				08F4AB541C6E98A1004DAAF7 /* CCControl.h in Headers */,
 				08F4AB551C6E98A1004DAAF7 /* CCControlTextureFactory.h in Headers */,
-
 				08F4AB561C6E98A1004DAAF7 /* CCScrollView.h in Headers */,
 				08F4AB571C6E98A1004DAAF7 /* UITouch+CC.h in Headers */,
 			);
@@ -1337,12 +1262,9 @@
 				5018F26F0DFDEAFF00C013A5 /* CCActionInstant.h in Headers */,
 				5018F2710DFDEAFF00C013A5 /* CCActionInterval.h in Headers */,
 				5018F2730DFDEAFF00C013A5 /* CCLabelTTF.h in Headers */,
-
 				5018F2750DFDEAFF00C013A5 /* CCNodeColor.h in Headers */,
-
 				5018F2770DFDEAFF00C013A5 /* CCScene.h in Headers */,
 				5018F27D0DFDEAFF00C013A5 /* CCTextureCache.h in Headers */,
-
 				D380581A1889AD6000822437 /* CCRenderer.h in Headers */,
 				50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */,
 				506602110E38A70D000B500E /* CCScheduler.h in Headers */,
@@ -1360,7 +1282,6 @@
 				D3903B10199528A0003AA81A /* CCRenderDispatch.h in Headers */,
 				B7E260D818171D2000A0E872 /* CCTextField.h in Headers */,
 				D34CAD6C19C3AA10009BED7A /* CCRendererBasicTypes_Private.h in Headers */,
-
 				50CB3B0E100AC43A00B7A750 /* CCActionManager.h in Headers */,
 				50F29F6F102053370046CA73 /* base64.h in Headers */,
 				D31C795219994197007921E1 /* CCMetalSupport_Private.h in Headers */,
@@ -1372,13 +1293,10 @@
 				505462FC1062768000AB7C52 /* ccConfig.h in Headers */,
 				50E2A15010A45E7F00D894CE /* CCSpriteFrame.h in Headers */,
 				B7E776211857A159004221AA /* CCColor.h in Headers */,
-
 				50E2A25210A46CC600D894CE /* CCProtocols.h in Headers */,
 				502C8BE010A661E200D137BA /* CCSpriteFrameCache.h in Headers */,
 				B79F905A17FE2A2E00908504 /* CCTableView.h in Headers */,
 				50E1357510ADEB1B00C9E7FA /* CCTexture.h in Headers */,
-
-
 				0529445D11098D6F00E500F3 /* CCProfiling.h in Headers */,
 				50FBB2DA117613F500150761 /* CCActionTween.h in Headers */,
 				50D898F31192CB7500458C29 /* uthash.h in Headers */,
@@ -1389,7 +1307,6 @@
 				E01E6D8C121F130E001A484F /* CCLabelBMFont.h in Headers */,
 				E0EAD0FF121F4B4600B0C81C /* CCDirectorIOS.h in Headers */,
 				E0EAD108121F4B4600B0C81C /* CCGLView.h in Headers */,
-
 				E0EAD19D121F4D7300B0C81C /* CCGL.h in Headers */,
 				E0EAD1F1121F522A00B0C81C /* CCConfiguration.h in Headers */,
 				E0F924711224140400EF2362 /* CCTexturePVR.h in Headers */,
@@ -1407,7 +1324,6 @@
 				B7EE69E01819E75700B983FE /* CCLayout.h in Headers */,
 				A0C87D1A14F9A3A100C0E8B2 /* NSThread+performBlock.h in Headers */,
 				D3903B14199528B6003AA81A /* CCMetalView.h in Headers */,
-
 				A6DC4E0918055DCC00C280A6 /* CCTransition.h in Headers */,
 				A0A7A53C1514F27D00C8BD16 /* CCActionCatmullRom.h in Headers */,
 				A039EBFF155C686B0061EE37 /* CCNode+Debug.h in Headers */,
@@ -1421,7 +1337,6 @@
 				B78AE46217E7AF1C0028BE0B /* CCButton.h in Headers */,
 				B78AE46417E7AF1C0028BE0B /* CCControl.h in Headers */,
 				B78AE46617E7AF1C0028BE0B /* CCControlTextureFactory.h in Headers */,
-
 				B78AE46817E7AF1C0028BE0B /* CCScrollView.h in Headers */,
 				B78AE46C17E7AF6C0028BE0B /* UITouch+CC.h in Headers */,
 			);
@@ -1435,7 +1350,6 @@
 				7A59467019E372EE00F65F90 /* CCNode+Debug.h in Headers */,
 				7A59467319E372EF00F65F90 /* CCLayout.h in Headers */,
 				08A4EB701C7A553E00A08923 /* CCActionProgressTimer.h in Headers */,
-
 				7A59467519E372EF00F65F90 /* CCLayoutBox.h in Headers */,
 				7A59467719E372EF00F65F90 /* CCDrawNode.h in Headers */,
 				7A59467919E372EF00F65F90 /* CCLabelBMFont.h in Headers */,
@@ -1446,7 +1360,6 @@
 				7A59468419E372EF00F65F90 /* CCSprite9Slice.h in Headers */,
 				7A59468619E372EF00F65F90 /* CCSpriteBatchNode.h in Headers */,
 				7A59468819E372F000F65F90 /* CCSpriteFrame.h in Headers */,
-
 				7A59468A19E372F000F65F90 /* CCSpriteFrameCache.h in Headers */,
 				7A59468D19E372F000F65F90 /* CCResponder.h in Headers */,
 				7A5946AA19E372F200F65F90 /* CCScene.h in Headers */,
@@ -1467,15 +1380,11 @@
 				7A5946F619E372FB00F65F90 /* utlist.h in Headers */,
 				7A5946F819E372FB00F65F90 /* TGAlib.h in Headers */,
 				7A5946F919E372FB00F65F90 /* CGPointExtension.h in Headers */,
-
 				7A5946FB19E372FC00F65F90 /* CCProfiling.h in Headers */,
 				5BC1DE2A1A2E2099009C2E67 /* NSEvent+CC.h in Headers */,
-
 				7A5946FE19E372FC00F65F90 /* ccUtils.h in Headers */,
-
 				7A5946FF19E372FC00F65F90 /* CCFileUtils.h in Headers */,
 				7A59470119E372FD00F65F90 /* base64.h in Headers */,
-
 				7A59470319E372FD00F65F90 /* ZipUtils.h in Headers */,
 				7A59470519E372FD00F65F90 /* NSThread+performBlock.h in Headers */,
 				7A59470719E372FE00F65F90 /* NSAttributedString+CCAdditions.h in Headers */,
@@ -1485,7 +1394,6 @@
 				7A59470F19E372FF00F65F90 /* CCRendererSharedTypes.h in Headers */,
 				7A59471019E372FF00F65F90 /* CCRendererBasicTypes.h in Headers */,
 				7A59471119E372FF00F65F90 /* CCRendererBasicTypes_Private.h in Headers */,
-
 				7A59471319E3730000F65F90 /* CCShader.h in Headers */,
 				7A59471619E3730000F65F90 /* NSValue+CCRenderer.h in Headers */,
 				7A59471819E3730100F65F90 /* CCRenderer.h in Headers */,
@@ -1493,13 +1401,11 @@
 				7A59471A19E3730200F65F90 /* CCRenderer.m in Headers */,
 				7A59473519E3730800F65F90 /* CCMetalView.h in Headers */,
 				7A59473719E3730900F65F90 /* UITouch+CC.h in Headers */,
-
 				7A59473919E3730900F65F90 /* CCDirectorIOS.h in Headers */,
 				7A59473D19E3730A00F65F90 /* CCAppDelegate.h in Headers */,
 				08A4EB7E1C7A563900A08923 /* CCPotentiometer.h in Headers */,
 				7A59474119E3730B00F65F90 /* CCMetalSupport_Private.h in Headers */,
 				7A59474319E3730C00F65F90 /* CCDirectorMac.h in Headers */,
-
 				7A59474519E3730C00F65F90 /* CCGLView.h in Headers */,
 				080246C21CB12E8300277993 /* CCBuilderReader.h in Headers */,
 				7A59474719E3730D00F65F90 /* CCWindow.h in Headers */,
@@ -1507,7 +1413,6 @@
 				7A59474A19E3730D00F65F90 /* CCNS.h in Headers */,
 				7A59474B19E3730E00F65F90 /* cocos2d.h in Headers */,
 				7A59474D19E3730E00F65F90 /* ccFPSImages.h in Headers */,
-
 				7A59474F19E3730F00F65F90 /* ccConfig.h in Headers */,
 				7A59475019E3730F00F65F90 /* CCDirector.h in Headers */,
 				7A59475219E3731000F65F90 /* ccMacros.h in Headers */,
@@ -1591,7 +1496,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					7A4037A719E37038007B6E8F = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -1630,14 +1535,11 @@
 				08F4AAB11C6E98A1004DAAF7 /* CCAction.m in Sources */,
 				08F4AAB21C6E98A1004DAAF7 /* CCNode.m in Sources */,
 				08F4AAB31C6E98A1004DAAF7 /* CCDirector.m in Sources */,
-
 				08A4EB741C7A553E00A08923 /* CCActionProgressTimer.m in Sources */,
 				08F4AAB41C6E98A1004DAAF7 /* CCActionInstant.m in Sources */,
 				08F4AAB51C6E98A1004DAAF7 /* CCActionInterval.m in Sources */,
-
 				08F4AAB71C6E98A1004DAAF7 /* CCLabelTTF.m in Sources */,
 				08F4AAB81C6E98A1004DAAF7 /* CCNodeColor.m in Sources */,
-
 				08F4AAB91C6E98A1004DAAF7 /* CCScene.m in Sources */,
 				08F4AABA1C6E98A1004DAAF7 /* CCTextureCache.m in Sources */,
 				08F4AABB1C6E98A1004DAAF7 /* CCMetalSupport.m in Sources */,
@@ -1645,10 +1547,8 @@
 				08F4AABD1C6E98A1004DAAF7 /* cocos2d.m in Sources */,
 				08F4AABE1C6E98A1004DAAF7 /* TGAlib.m in Sources */,
 				08F4AAC01C6E98A1004DAAF7 /* CCActionEase.m in Sources */,
-
 				08F4AAC21C6E98A1004DAAF7 /* CCSlider.m in Sources */,
 				08A4EB821C7A563900A08923 /* CCPotentiometer.m in Sources */,
-
 				08F4AAC31C6E98A1004DAAF7 /* CCSprite.m in Sources */,
 				08F4AAC41C6E98A1004DAAF7 /* CCFileUtils.m in Sources */,
 				08F4AAC61C6E98A1004DAAF7 /* CGPointExtension.m in Sources */,
@@ -1684,9 +1584,7 @@
 				08F4AAEA1C6E98A1004DAAF7 /* CCLayout.m in Sources */,
 				08F4AAEB1C6E98A1004DAAF7 /* ccFPSImages.m in Sources */,
 				08F4AAEC1C6E98A1004DAAF7 /* CCTableView.m in Sources */,
-
 				08F4AAED1C6E98A1004DAAF7 /* CCSprite9Slice.m in Sources */,
-
 				08F4AAEE1C6E98A1004DAAF7 /* NSAttributedString+CCAdditions.m in Sources */,
 				08F4AAEF1C6E98A1004DAAF7 /* CCLayoutBox.m in Sources */,
 				08F4AAF01C6E98A1004DAAF7 /* CCColor.m in Sources */,
@@ -1696,7 +1594,6 @@
 				08F4AAF51C6E98A1004DAAF7 /* CCButton.m in Sources */,
 				08F4AAF61C6E98A1004DAAF7 /* CCControl.m in Sources */,
 				08F4AAF71C6E98A1004DAAF7 /* CCControlTextureFactory.m in Sources */,
-
 				08A4EB7A1C7A553E00A08923 /* CCProgressNode.m in Sources */,
 				08F4AAF81C6E98A1004DAAF7 /* CCCache.m in Sources */,
 				08F4AAF91C6E98A1004DAAF7 /* CCRendererGLSupport.m in Sources */,
@@ -1728,7 +1625,6 @@
 				50F7B2790F28DE7C00057537 /* CCActionEase.m in Sources */,
 				571CD02919649E03003D460C /* CCPlatformTextField.m in Sources */,
 				B7EE6A1F181AE34600B983FE /* CCSlider.m in Sources */,
-
 				08A4EB801C7A563900A08923 /* CCPotentiometer.m in Sources */,
 				509A79980F6188420032F449 /* CCSprite.m in Sources */,
 				50C508C70F7C194400799124 /* CCFileUtils.m in Sources */,
@@ -1739,20 +1635,17 @@
 				D3903B15199528B6003AA81A /* CCMetalView.m in Sources */,
 				50F29F5610204FD60046CA73 /* base64.c in Sources */,
 				50F2A104102094550046CA73 /* ZipUtils.m in Sources */,
-
 				571CD02B19649E03003D460C /* CCPlatformTextFieldIOS.m in Sources */,
 				50316AA710291280003ACFE7 /* CCRenderTexture.m in Sources */,
 				50E2A15110A45E7F00D894CE /* CCSpriteFrame.m in Sources */,
 				502C8BE110A661E200D137BA /* CCSpriteFrameCache.m in Sources */,
 				50E1357610ADEB1B00C9E7FA /* CCTexture.m in Sources */,
 				503862E6110072BC005D2C92 /* CCConfiguration.m in Sources */,
-
 				0529445E11098D6F00E500F3 /* CCProfiling.m in Sources */,
 				50FBB2DB117613F500150761 /* CCActionTween.m in Sources */,
 				D37D197B18B6666E00B23FDE /* CCSpriteBatchNode.m in Sources */,
 				D3903B0D1995288D003AA81A /* CCNoARC.m in Sources */,
 				E0C54DCA11F9CF2700B9E4CB /* ccUtils.c in Sources */,
-
 				E01E6D8D121F130E001A484F /* CCLabelBMFont.m in Sources */,
 				E0EAD100121F4B4600B0C81C /* CCDirectorIOS.m in Sources */,
 				E0EAD109121F4B4600B0C81C /* CCGLView.m in Sources */,
@@ -1760,15 +1653,12 @@
 				E02BB6D7126CA93A006E46A2 /* CCAnimationCache.m in Sources */,
 				E02BB705126CADEA006E46A2 /* CCAnimation.m in Sources */,
 				E0BC7DA01342CE7B001B4DCC /* CCShader.m in Sources */,
-
 				A0C87D1B14F9A3A100C0E8B2 /* NSThread+performBlock.m in Sources */,
 				A0A7A53D1514F27D00C8BD16 /* CCActionCatmullRom.m in Sources */,
 				D380581B1889AD6000822437 /* CCRenderer.m in Sources */,
 				D369415F19CFDF170092A0BD /* CCRendererBasicTypes.m in Sources */,
 				A039EC00155C686B0061EE37 /* CCNode+Debug.m in Sources */,
 				A0DA0BC415BCDCA200E80A92 /* CCDrawNode.m in Sources */,
-
-
 				B7EE69E11819E75700B983FE /* CCLayout.m in Sources */,
 				A003AC8F16572D6000C7B792 /* ccFPSImages.m in Sources */,
 				B79F905B17FE2A2E00908504 /* CCTableView.m in Sources */,
@@ -1779,7 +1669,6 @@
 				A6DC4E0A18055DCC00C280A6 /* CCTransition.m in Sources */,
 				A6A0734617C788EB004343C8 /* CCResponderManager.m in Sources */,
 				A6A0734B17C78EF3004343C8 /* CCResponder.m in Sources */,
-
 				B78AE46317E7AF1C0028BE0B /* CCButton.m in Sources */,
 				B78AE46517E7AF1C0028BE0B /* CCControl.m in Sources */,
 				B78AE46717E7AF1C0028BE0B /* CCControlTextureFactory.m in Sources */,
@@ -1801,9 +1690,7 @@
 				7A5947C119E3759C00F65F90 /* CCLayoutBox.m in Sources */,
 				08A4EB731C7A553E00A08923 /* CCActionProgressTimer.m in Sources */,
 				7A5947C319E3759D00F65F90 /* CCDrawNode.m in Sources */,
-
 				7A5947C519E3759D00F65F90 /* CCLabelBMFont.m in Sources */,
-
 				7A5947C719E3759D00F65F90 /* CCLabelTTF.m in Sources */,
 				7A5947CA19E3759D00F65F90 /* CCAnimation.m in Sources */,
 				7A5947CC19E3759E00F65F90 /* CCAnimationCache.m in Sources */,
@@ -1832,22 +1719,18 @@
 				5BC1DE2B1A2E2099009C2E67 /* NSEvent+CC.m in Sources */,
 				7A59483F19E375AA00F65F90 /* CCTextureCache.m in Sources */,
 				7A59484219E375AA00F65F90 /* TGAlib.m in Sources */,
-
 				7A59484519E375AB00F65F90 /* CGPointExtension.m in Sources */,
 				7A59484719E375AB00F65F90 /* CCProfiling.m in Sources */,
 				7A59484819E375AB00F65F90 /* ccUtils.c in Sources */,
 				7A59484B19E375AB00F65F90 /* CCFileUtils.m in Sources */,
-
 				7A59484D19E375AB00F65F90 /* base64.c in Sources */,
 				7A59484F19E375AC00F65F90 /* ZipUtils.m in Sources */,
 				7A59485119E375AC00F65F90 /* NSThread+performBlock.m in Sources */,
 				7A59485319E375AC00F65F90 /* NSAttributedString+CCAdditions.m in Sources */,
 				7A59485519E375AC00F65F90 /* CCColor.m in Sources */,
 				7A59485719E375AD00F65F90 /* CCCache.m in Sources */,
-
 				7A59485919E375AD00F65F90 /* CCRenderDispatch.m in Sources */,
 				7A59485D19E375AD00F65F90 /* CCRendererBasicTypes.m in Sources */,
-
 				7A59486019E375AE00F65F90 /* CCShader.m in Sources */,
 				7A59486219E375AE00F65F90 /* NSValue+CCRenderer.m in Sources */,
 				7A59486519E375AE00F65F90 /* CCRenderer.m in Sources */,
@@ -1862,7 +1745,6 @@
 				7A59489719E375B400F65F90 /* cocos2d.m in Sources */,
 				7A59489919E375B500F65F90 /* ccFPSImages.m in Sources */,
 				7A59489C19E375B500F65F90 /* CCDirector.m in Sources */,
-
 				7A5948A019E375B600F65F90 /* CCConfiguration.m in Sources */,
 				7A5948A319E375B700F65F90 /* CCScheduler.m in Sources */,
 				7A5948A519E375B700F65F90 /* CCNoARC.m in Sources */,
@@ -1873,7 +1755,6 @@
 				08A4EB791C7A553E00A08923 /* CCProgressNode.m in Sources */,
 				7A5948CD19E375BD00F65F90 /* CCScrollView.m in Sources */,
 				7A5948CF19E375BE00F65F90 /* CCControlTextureFactory.m in Sources */,
-
 				7A5948D119E375BE00F65F90 /* CCTextField.m in Sources */,
 				7A5948D319E375BE00F65F90 /* CCSlider.m in Sources */,
 			);
@@ -2103,11 +1984,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2147,7 +2037,7 @@
 					"external/ObjectAL/**",
 					"external/SSZipArchive/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "";
@@ -2160,11 +2050,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2202,7 +2101,7 @@
 					"external/ObjectAL/**",
 					"external/SSZipArchive/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PROVISIONING_PROFILE = "";
